@@ -46,13 +46,34 @@
     align-items: center;
 }
 .formulario {
-    width: 100%;
-    height: 100vmax;
-    background-color: rgba(150, 138, 138, 0.563);
+    width: 60%;
+    height: 50vmax;
+    background-color: rgba(110, 105, 105, 0.563);
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    display: none;
+}
+.div_formulario {
+    background-color: aqua;
+    height: 5rem;
+    padding: 1rem;
+}
+.div_formulario input {
+    height: 3rem;
+}
+.div_controles {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(55, 255, 0);
+    font-size: 4rem;
     position: absolute;
     top: 0;
-    left: 0;
-    display: none;
+    left: 20rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .ocultar{
     display: none;

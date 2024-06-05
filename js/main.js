@@ -38,6 +38,25 @@ function cargar_formulario () {
     ventana_formulario.classList.add("activar_b")
     ventana_formulario.innerHTML = `
 
+    <div class="div_controles">
+        <div class="btn_cerrar">
+            x
+        </div>
+    </div>
+
+
+
+<div class="div_formulario">
+    <input type="txt">
+    <select id="categoria" name="categoria">
+        <option value="perro">Categoría</option>
+        <option value="perro">Casa</option>
+        <option value="gato">Universidad</option>
+        <option value="pajaro">Trabajo</option>
+    </select>
+</div>
+
+<div class="crear">Crear</div>
     `
 }
 
